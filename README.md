@@ -115,3 +115,15 @@ The model illustrates how FACT Budget dimension has been linked to FACT Internet
 ## SALES DASHBOARD
 
 The completed sales management dashboard includes a main overview page and two additional pages that consolidate key tables and visualizations to display sales trends over time, by customer, and by product.
+
+OVERVIEW DASHBOARD
+
+![Customer report](https://app.powerbi.com/groups/me/reports/a1c72173-0d5e-4157-80c8-bcdbec87c290/ReportSection?experience=power-bi)
+
+CUSTOMER DASHBOARD
+
+![Customer report](https://github.com/user-attachments/assets/d2ea8cf1-6079-4291-9841-1338d0d55297)
+
+PRODUCT DASHBOARD
+
+![product report](https://github.com/user-attachments/assets/9748a83d-905e-4a19-9e50-64dcac59881b)
