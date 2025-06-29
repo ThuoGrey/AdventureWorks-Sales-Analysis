@@ -24,3 +24,19 @@ To address this need, we delivered a series of tailored Power BI dashboards, eac
  Sales budgets were supplied in Excel format and linked in the data model at a later stage of the procedure.
 
  The SQL statements for cleaning and converting the required data are listed below.
+
+-- Cleaned DIM_Date Table --
+SELECT 
+  [DateKey], 
+  [FullDateAlternateKey] AS Date,
+  [EnglishDayNameOfWeek] AS Day,
+  [EnglishMonthName] AS Month, 
+  Left([EnglishMonthName], 3) AS MonthShort,   -- Useful for front end date navigation and front end graphs. 
+  [MonthNumberOfYear] AS MonthNo, 
+  [CalendarQuarter] AS Quarter, 
+  [CalendarYear] AS Year
+FROM 
+ [AdventureWorksDW2022].[dbo].[DimDate]
+WHERE 
+  CalendarYear >= 2022
+
