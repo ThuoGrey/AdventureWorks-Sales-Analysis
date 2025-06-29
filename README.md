@@ -25,6 +25,7 @@ To address this need, we delivered a series of tailored Power BI dashboards, eac
 
  The SQL statements for cleaning and converting the required data are listed below.
 
+'''
 -- Cleaned DIM_Date Table --
 SELECT 
   [DateKey], 
@@ -39,4 +40,4 @@ FROM
  [AdventureWorksDW2022].[dbo].[DimDate]
 WHERE 
   CalendarYear >= 2022
-
+'''
