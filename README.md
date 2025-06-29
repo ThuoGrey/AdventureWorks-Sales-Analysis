@@ -106,4 +106,12 @@ order by
 
 ## DATA MODEL
 
+Below is a screenshot of the data model after the cleansed and prepared tables were imported into Power BI.
+
+The model illustrates how FACT Budget dimension has been linked to FACT InternetSales Dimension and the relevant dimension tables.
+
 ![DATA MODEL](https://github.com/user-attachments/assets/3a5c8914-05a0-45a5-a26a-2bd10afef6f9)
+
+## SALES DASHBOARD
+
+The completed sales management dashboard includes a main overview page and two additional pages that consolidate key tables and visualizations to display sales trends over time, by customer, and by product.
