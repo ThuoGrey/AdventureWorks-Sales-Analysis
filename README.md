@@ -18,7 +18,7 @@ To address this need, we delivered a series of tailored Power BI dashboards, eac
   4. Performance vs. Budget Analysis: A management-focused view that visualizes actual sales performance over time against predefined budget targets. This includes KPIs, trend graphs,         and variance indicators to support strategic planning and goal tracking.
 
 
-## Data Transformation & Cleaning
+## DATA TRANSFORMATION
  The following tables were extracted using SQL in order to create the data model required for conducting analysis and meeting the business needs outlined in the Business Requirement Overview.
 
  Sales budgets were supplied in Excel format and linked in the data model at a later stage of the procedure.
@@ -103,3 +103,7 @@ order by
   WHERE 
     CalendarYear >= 2022
 ```
+
+## DATA MODEL
+
+![DATA MODEL](https://github.com/user-attachments/assets/3a5c8914-05a0-45a5-a26a-2bd10afef6f9)
