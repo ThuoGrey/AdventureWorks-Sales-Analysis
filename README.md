@@ -118,7 +118,7 @@ The completed sales management dashboard includes a main overview page and two a
 
 OVERVIEW DASHBOARD
 
-![Customer report](https://app.powerbi.com/groups/me/reports/a1c72173-0d5e-4157-80c8-bcdbec87c290/ReportSection?experience=power-bi)
+![sales over](https://github.com/user-attachments/assets/30bfb16c-eadf-4e03-aed6-09402a8517ae)
 
 CUSTOMER DASHBOARD
 
